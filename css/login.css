@@ -1,0 +1,119 @@
+
+
+/*-------------------------css đăng ký-----------------------------------------------------------------------------*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ddccff;
+}
+* {
+  box-sizing: border-box;
+}
+.dangky {
+ /*padding: 16px 10% 16px 65%;*/
+  margin: 44px 35% 16px 35%;
+  background-color: #ddccff;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;  /*bo tròn đường viền*/
+  background: #e6ffff;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ccffff;
+  outline: none;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.btn {
+  background-color: #6600cc;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;  /*bo tròn đường viền*/
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+
+}
+.btn:hover {
+  opacity: 1;
+}
+a {
+  color: #800080;
+  font-size: 1em;
+}
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1.3em;
+}
+h3 {
+  font-size: 1.0em;
+}
+h4 {
+  font-size: 0.4em;
+}
+p {
+  font-family: verdana;
+  font-size: 0.8em; /* cỡ chữ*/
+}
+
+/*-------------css đăng nhập-----------------------------------------------------------------------------------------*/
+
+.dangnhap {
+  background-color: #ddccff;
+  margin: 16px 35% 30px 35%; 
+}
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+.col {
+ 
+  width: 100%;
+  padding: 20px 20px;
+  margin: 40px 0 18px ;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.kengang {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  width : 30%;
+
+}
+.or-kengang {
+  position: absolute;
+
+  transform: translate(550%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;/*nút or hình tròn*/
+  padding: 8px 10px;
+}
+
+
+
+

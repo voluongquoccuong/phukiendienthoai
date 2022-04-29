@@ -1,0 +1,9 @@
+/* san pham  */
+.nav .card-sanpham .rating label.fa{
+	color: gray;
+	opacity: 50%;
+}
+
+.nav .card-sanpham .rating label.checked{
+	color: #FF0066;
+}
